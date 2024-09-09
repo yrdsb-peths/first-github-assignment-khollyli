@@ -9,7 +9,6 @@ public class Student
 {
   public static void main()
   {
-    // Asks for user input
     Scanner scan = new Scanner (System.in);
     System.out.println("Enter your first name: ");
     String firstName = scan.nextLine();
