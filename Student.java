@@ -2,7 +2,6 @@ import java.util.*;
 
 /**
  * @author Kholly Li
- * Hello
  */
 
 public class Student
@@ -16,5 +15,13 @@ public class Student
     String lastName = scan.nextLine();
 
     System.out.println("Hello " + firstName + " " + lastName + "!");
+  }
+
+  public int num()
+  {
+    int x = 10;
+    int y = 7;
+    int sum = x + y;
+    int product = x * y;
   }
 }
